@@ -13,7 +13,8 @@ function displayImage() {
   
   imgElement.style.width = "100%";
   imgElement.style.margin = "0 auto";
-  image.style.width = "100%";
+  image.style.display = "block";
+  image.style.width = "500px";
   image.style.margin = "0 auto";
   imgElement.style.display = "inline";
 
