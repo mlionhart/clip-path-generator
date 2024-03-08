@@ -8,11 +8,13 @@ let success = document.querySelector("#success");
 let fileInput = document.getElementById("imageInput");
 let imgElement = document.getElementById("displayedImg");
 let startOver = document.getElementById("startOver");
+let h4 = document.querySelector('h4');
 
 function displayImage() {
   
   imgElement.style.width = "100%";
   imgElement.style.margin = "0 auto";
+  h4.style.display = "block";
   image.style.display = "block";
   image.style.width = "500px";
   image.style.margin = "0 auto";

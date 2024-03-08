@@ -7,9 +7,13 @@ body {
   background-color: #c6c5c5e0;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, h4 {
   width: 300px;
   margin: 16px auto 16px auto;
+}
+
+h4 {
+  display: none;
 }
 
 #generate, #finished {
