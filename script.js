@@ -10,6 +10,11 @@ let imgElement = document.getElementById("displayedImg");
 let startOver = document.getElementById("startOver");
 
 function displayImage() {
+  
+  imgElement.style.width = "100%";
+  imgElement.style.margin = "0 auto";
+  image.style.width = "100%";
+  image.style.margin = "0 auto";
   imgElement.style.display = "inline";
 
   if (fileInput.files && fileInput.files[0]) {
@@ -65,5 +70,7 @@ generate.addEventListener("click", (event) => {
   selection.removeAllRanges();
   selection.addRange(range);
   navigator.clipboard.writeText(clipContent.innerText);
-  success.style.display = "inline-block";
+  document.querySelector('h2').style.width = "300px";
+  document.querySelector('h2').style.margin = "0 auto";
+  success.style.display = "block";
 });

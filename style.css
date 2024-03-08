@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, p {
+  width: 300px;
+  margin: 16px auto 16px auto;
+}
+
+#generate, #finished {
+  margin: 16px auto 16px auto;
+
+}
+
+#imageInput {
+  display: block;
+  width: 300px;
+  margin: 16px auto 16px auto;
+}
+
+.container {
+  position: relative;
+  width: 45%;
+  margin: 0 auto;
+  background-color: rgb(119, 185, 247);
+  min-height: 100vh;
+  height:auto;
+  padding: 10px 15px;
+}
+
+.image-div {
+  display: inline-block;
+  position: relative;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+}
+
+#success {
+  display: none;
+  background-color: rgba(16, 247, 12, 0.6);
+  padding: 10px;
+  margin-top: -10px;
+}
+
+#displayedImg {
+  display: none;
+}
+
+#finished, #generate, #startOver {
+  display: none;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+input[type='button'] {
+  padding: 5px;
+  background-color: #c6c5c5e0;
+  color: black;
+  font-weight: bold;
+  border-radius: 4px 4px;
+}
+
+#startOver {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
